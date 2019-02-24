@@ -1,2 +1,3 @@
-# image-poisson-blending
-Poisson blending of images
+# Poisson blending
+
+Grad dom fus
