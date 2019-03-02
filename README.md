@@ -9,7 +9,9 @@ This code implements gradient domain fusion of images via two techniques both of
 
 The results are shown below:
 
-![ScreenShot](/images/im1.jpg "Example 1 - Poisson Blending")     ![alt text](/images/im2.jpg "Example 2 - Mixed Gradients")  
+![ScreenShot](/images/im1.jpg "Example 1 - Poisson Blending")
+
+![alt text](/images/im2.jpg "Example 2 - Mixed Gradients")  
 <pre>
                                       Fig.1 - Image Blending </pre>
                                       
