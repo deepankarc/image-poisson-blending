@@ -1,6 +1,4 @@
 import numpy as np
-import scipy.sparse as sps
-import scipy.sparse.linalg as linalg
 import cv2
 import matplotlib.pyplot as mpplt
 

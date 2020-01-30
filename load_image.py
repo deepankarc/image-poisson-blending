@@ -1,3 +1,6 @@
+import cv2
+import matplotlib as mpplt
+
 def load_image(filename, DATA_ROOT):
   image_data = {}
   source = cv2.imread(DATA_ROOT+"source/"+"source_"+filename) # source

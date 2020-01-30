@@ -1,3 +1,6 @@
+import numpy as np
+import scipy.sparse as sps
+
 def get_subimg(image, dims):
    return image[dims[0]:dims[1], dims[2]:dims[3]]
 

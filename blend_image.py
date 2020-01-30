@@ -1,4 +1,6 @@
 import poisson_blending as pbnd
+import naive_copy
+import scipy.sparse.linalg as linalg
 
 # linear least squares solver
 def linlsq_solver(A, b, dims):
@@ -13,7 +15,7 @@ def stitch_images(source, target, dims):
 # performs poisson blending
 def blend_image(data, BLEND_TYPE, GRAD_MIX):
   if(BLEND_TYPE == 1):
-    image_solution = naive_copy(data)
+    image_solution = naive_copy.naive_copy(data)
     
   elif(BLEND_TYPE == 2):
     equation_param = []

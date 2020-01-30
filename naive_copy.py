@@ -1,3 +1,5 @@
+import numpy as np
+
 # performs naive cut-paste from source to target
 def naive_copy(image_data):
   # extract image data
